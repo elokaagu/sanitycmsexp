@@ -26,9 +26,9 @@ export default function Home({ properties }) {
                 </Link>
               ))}
             </div>
-            <div className="map">
-              <DashboardMap properties={properties} />
-            </div>
+          </div>
+          <div className="map">
+            <DashboardMap properties={properties} />
           </div>
         </div>
       )}

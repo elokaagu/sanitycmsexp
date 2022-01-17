@@ -86,7 +86,7 @@ body {
 }
 
 .feed-container {
-  width: 100%;
+  width: 50%;
   height: 100vh;
   background-color: #f8f8f8;
   padding: 20xp;
@@ -107,6 +107,20 @@ body {
 }
 
 .card img {
-  max-width: 300px;
+  max-width: 250px;
   border-radius: 20px;
+}
+
+.image {
+  width: 25%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.sub-images-section {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
 }

@@ -36,8 +36,13 @@ const Property = ({
         <div className="images-section">
           <Image identifier="main-image" image={mainImage} alt="image" />
           <div className="sub-images-section">
-            {images.map((_key, image) => (
-              <Image idenfifier="image" image={image} alt="sub-images" />
+            {images.map(({ _key, asset }, image) => (
+              <Image
+                key={_key}
+                idenfifier="image"
+                image={asset}
+                alt="sub-images"
+              />
             ))}
           </div>
         </div>
